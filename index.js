@@ -13,3 +13,21 @@ function letMethod(){
     console.log(b);
 };
 letMethod();
+
+// let in for loops
+
+function letInForLoop(){
+    for( var  i = 0; i<= 20;i++){
+        setTimeout(function(){
+            console.log("Var Example"+i);
+            
+        },1000);
+    };
+      for( let  j = 0; j<= 20;j++){
+        setTimeout(function(){
+            console.log("Let Example"+j);
+            
+        },1000);
+    }cd
+}
+letInForLoop();
