@@ -28,6 +28,13 @@ function letInForLoop(){
             console.log("Let Example"+j);
             
         },1000);
-    }cd
+    }
 }
 letInForLoop();
+
+//Arrow function in Es6
+
+const arrowFunction = () =>{
+    return 100;
+} 
+console.log(arrowFunction());
